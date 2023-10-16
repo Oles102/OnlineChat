@@ -1,0 +1,22 @@
+2023-10-15 20:08:47.707 MSK [956] LOG:  starting PostgreSQL 14.8 (Homebrew) on x86_64-pc-linux-gnu, compiled by gcc-11 (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0, 64-bit
+2023-10-15 20:08:47.707 MSK [956] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-10-15 20:08:47.712 MSK [956] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2023-10-15 20:08:47.722 MSK [957] LOG:  database system was interrupted; last known up at 2023-10-15 01:03:34 MSK
+2023-10-15 20:08:48.118 MSK [957] LOG:  database system was not properly shut down; automatic recovery in progress
+2023-10-15 20:08:48.122 MSK [957] LOG:  redo starts at 0/26E3180
+2023-10-15 20:08:48.122 MSK [957] LOG:  invalid record length at 0/26E3268: wanted 24, got 0
+2023-10-15 20:08:48.122 MSK [957] LOG:  redo done at 0/26E3230 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2023-10-15 20:08:48.149 MSK [956] LOG:  database system is ready to accept connections
+2023-10-15 23:40:46.478 MSK [2953] ERROR:  column "used_id" does not exist
+2023-10-15 23:40:46.478 MSK [2953] STATEMENT:  CREATE UNIQUE INDEX "index_likes_on_used_id_and_message_id" ON "likes" ("used_id", "message_id")
+2023-10-15 23:44:00.772 MSK [3012] ERROR:  column "used_id" does not exist
+2023-10-15 23:44:00.772 MSK [3012] STATEMENT:  CREATE UNIQUE INDEX "index_likes_on_used_id_and_message_id" ON "likes" ("used_id", "message_id")
+2023-10-16 20:51:36.636 MSK [1147] LOG:  starting PostgreSQL 14.8 (Homebrew) on x86_64-pc-linux-gnu, compiled by gcc-11 (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0, 64-bit
+2023-10-16 20:51:36.636 MSK [1147] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-10-16 20:51:36.641 MSK [1147] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2023-10-16 20:51:36.652 MSK [1148] LOG:  database system was interrupted; last known up at 2023-10-16 00:48:54 MSK
+2023-10-16 20:51:37.057 MSK [1148] LOG:  database system was not properly shut down; automatic recovery in progress
+2023-10-16 20:51:37.061 MSK [1148] LOG:  redo starts at 0/27900E0
+2023-10-16 20:51:37.061 MSK [1148] LOG:  invalid record length at 0/27901C8: wanted 24, got 0
+2023-10-16 20:51:37.061 MSK [1148] LOG:  redo done at 0/2790190 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2023-10-16 20:51:37.084 MSK [1147] LOG:  database system is ready to accept connections
